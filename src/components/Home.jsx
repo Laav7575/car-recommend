@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 const Home = ({ count, increment, decrement }) => {
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Home page now </h1>
       <p>Count: {count}</p>
       <button onClick={increment}>Increment</button>
       <button onClick={decrement}>Decrement</button>
